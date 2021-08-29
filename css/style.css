@@ -1,0 +1,105 @@
+/*------------------------ common styling------------------------------ */
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+  }
+  
+  body {
+    background-color: #f7f7f7;
+    font-family: poppins;
+  }
+  /* --------------------Main Css Part -----------------------*/
+  h1 {
+    font-size: 35px;
+    font-weight: 300;
+  }
+  h3 {
+    font-weight: 300;
+  }
+  p {
+    font-weight: 300;
+  }
+  
+  button {
+    padding: 5px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    border: 0.5px solid gray;
+    color: gray;
+  }
+  button:hover {
+    background-color: #333333;
+    color: #f7f7f7;
+  }
+  .container {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    
+  }
+  .container .image {
+    width: 90%;
+    margin: auto;
+  }
+  .container .image img {
+    width: 100%;
+  }
+  .mac-customization {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px;
+  }
+  .specification {
+    text-align: start;
+    width: 60%;
+    border-right: 1px solid gray;
+  }
+  .specification h3 {
+    margin-top: 30px;
+  }
+ 
+  
+  .promo-code {
+    margin-top: 30px;
+  }
+  .promo-code input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    background-color: #f7f7f7;
+    border: 1px solid cadetblue;
+    border-radius: 3px;
+  }
+  .promo-code button {
+    padding: 5px;
+    background-color: rgb(42, 182, 187);
+    color: #f7f7f7;
+    border: 1px solid cadetblue;
+
+
+  }
+
+  .price-tag {
+    width: 30%;
+  }
+  .price-table {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  /* ------------------footer css part------------------------  */
+  
+  footer {
+    background-color: rgb(29, 198, 207);
+    color: #f7f7f7;
+    border-radius: 5px;
+    margin: 50px 0px;
+  }
+  footer h1 {
+    font-weight: 400;
+  }
+  
